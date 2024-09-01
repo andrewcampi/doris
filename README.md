@@ -14,13 +14,19 @@ This project demonstrates and showcases the integration of various AI and data p
 
 To get started with this project, follow these steps:
 
-1. **Install Dependencies**:
+1. **Make your .env file**:
+   Create a new file in this project directory named ".env". On the first line store your OpenAI API key, like this:
+   ```sh
+   OPENAI_API_KEY=your-api-key
+   ```
+
+2. **Install Dependencies**:
    Run the following command to install all required dependencies:
    ```sh
    pip3 install -r requirements.txt
    ```
 
-2. **Run the Scripts in Order**:
+3. **Run the Scripts in Order**:
 
    The project consists of several scripts that need to be executed in a specific order. The speed at which these processes run depends on the speed of your internet connection and power of your hardware. Here is the sequence the files must be run in:
 
@@ -49,7 +55,7 @@ To get started with this project, follow these steps:
      streamlit run gui_streamlit.py
      ```
 
-3. **Be Patient**:
+4. **Be Patient**:
    The process of downloading, reformatting, and indexing the entire Wikipedia dataset is time-consuming. Please be patient as it may take several hours to complete. I have employed Tqdm progress bars to display progress and estimate the time of completion for each step.
 
 By following these steps, you will be able to explore the capabilities of Doris, my AI librarian, and see how it leverages advanced AI technologies to provide useful information and recommendations.
